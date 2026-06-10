@@ -32,6 +32,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background: #080808;
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
 }
 
 .landing-page {
