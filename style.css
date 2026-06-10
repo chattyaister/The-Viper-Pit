@@ -14,10 +14,6 @@
     flex-direction: column;
     text-align: center;
 }
-.landing-gif {
-    width: 500px;
-    max-width: 90%;
-}
 
 .enter-button {
     display: inline-block;
