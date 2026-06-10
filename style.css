@@ -57,5 +57,12 @@
 }
 
 body {
+    font-family: Georgia, serif;
+}
+
+h1,
+h2,
+.access-warning,
+.file-label {
     font-family: "Share Tech Mono", monospace;
 }
