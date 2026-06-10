@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Georgia, serif;
+    margin: 0;
+    background: #080808;
 }
 
 .landing-body {
