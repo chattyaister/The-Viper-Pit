@@ -55,3 +55,7 @@
         border-color: transparent;
     }
 }
+
+body {
+    font-family: "Share Tech Mono", monospace;
+}
