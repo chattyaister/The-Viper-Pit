@@ -1,12 +1,17 @@
-.landing-page {
-    min-height: 100vh;
+.landing-body {
+    background-image: url("viper pit.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+.landing-page {
+    min-height: 100vh;\
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
 }
 
@@ -17,17 +22,12 @@
 
 .enter-button {
     display: inline-block;
-
     margin-top: 30px;
     padding: 15px 30px;
-
     background: #7c3aed;
     color: white;
-
     text-decoration: none;
-
     border-radius: 8px;
-
     transition: 0.4s ease;
 }
 
