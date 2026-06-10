@@ -1,3 +1,10 @@
+.body {
+    background-image: url("scales.gif");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 .landing-body {
     background-image: url("viper pit.gif");
     background-size: 100%;
