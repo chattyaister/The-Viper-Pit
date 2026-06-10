@@ -14,9 +14,17 @@
     flex-direction: column;
     text-align: center;
     color: white;
-    background: #151515;
 }
-
+.landing-card {
+    background: #151515;
+    border: 1px solid #333333;
+    border-left: 8px solid #7c3aed;
+    border-right: 8px solid #7c3aed;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
+}
+    
 .enter-button {
     display: inline-block;
     margin-top: 5px;
