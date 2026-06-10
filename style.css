@@ -34,8 +34,8 @@
 .landing-card {
     background: rgba(21, 21, 21, 0.7);
     border: 1px solid #333333;
-    border-left: 8px solid #A11500;
-    border-right: 8px solid #A11500;
+    border-left: 6px solid #A11500;
+    border-right: 6px solid #A11500;
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
@@ -94,4 +94,18 @@ h2,
 
 .warning-text {
     color: #A11500
+}
+
+
+.transparent-card {
+    background: rgba(15, 15, 15, 0.00);
+    border: 1px solid rgba(192, 132, 252, 0.0);
+    border-left: 6px solid rgba(124, 58, 237, 0.0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
+    backdrop-filter: blur(0px);
 }
