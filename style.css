@@ -13,8 +13,8 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: white;
 }
+
 .landing-card {
     background: rgba(21, 21, 21, 0.7);
     border: 1px solid #333333;
