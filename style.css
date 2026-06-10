@@ -13,6 +13,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    color: white;
 }
 
 .enter-button {
@@ -66,4 +67,8 @@ h2,
 .access-warning,
 .file-label {
     font-family: "Share Tech Mono", monospace;
+}
+
+.h1red {
+    color: #A11500
 }
