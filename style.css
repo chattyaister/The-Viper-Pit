@@ -57,9 +57,15 @@ footer {
 }
 
 h1 {
-    color: #c084fc;
+    color: #E6E6E6;
     font-size: 42px;
     margin: 5px 0;
+}
+
+P {
+    color: #E6E6E6;
+    font-size: 18px;
+    margin: 0px 0;
 }
 
 .landing-page {
