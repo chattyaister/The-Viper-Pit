@@ -131,3 +131,29 @@ h2,
     box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
     backdrop-filter: blur(0px);
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 15px;
+    background: rgba(10, 10, 10, 0.8);
+
+    border-top: 1px solid #7c3aed;
+    border-bottom: 1px solid #7c3aed;
+}
+
+.navbar a {
+    color: #d8b4fe;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: white;
+    text-shadow: 0 0 10px #c084fc;
+}
