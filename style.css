@@ -1,3 +1,20 @@
+
+.landing-body {
+    background-repeat: no-repeat;
+    font-family: Georgia, serif;
+    margin: 0;
+    background: #080808;
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url("viper pit.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 .archive-body {
     background-repeat: no-repeat;
     font-family: Georgia, serif;
@@ -26,13 +43,6 @@
     );
 }
 
-.landing-body {
-    background-image: url("viper pit.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 .landing-page {
     height: 100vh;
