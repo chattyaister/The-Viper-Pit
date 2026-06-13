@@ -1,3 +1,28 @@
+.site-header {
+    text-align: center;
+}
+
+.header-divider {
+    width: 300px;
+    height: 2px;
+
+    margin: 10px auto;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #c084fc,
+        transparent
+    );
+}
+
+footer {
+    text-align: center;
+    color: #666666;
+    padding: 30px;
+    border-top: 1px solid #222222;
+}
+
 
 .landing-body {
     background-repeat: no-repeat;
