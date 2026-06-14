@@ -155,7 +155,7 @@ backdrop-filter: blur(0px);
 }
 
 .dossier-card {
-background: #151515;
+background: rgba(15, 15, 15, 0.7);
 border: 1px solid #333333;
 border-left: 8px solid #808080;
 border-right: 8px solid #808080;
