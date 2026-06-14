@@ -88,6 +88,7 @@ body {
 .content {
   flex: 1;
   position: relative;
+  align-self: flex-start;
 }
 
 .page {
