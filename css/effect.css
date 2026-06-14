@@ -163,6 +163,8 @@ top-nav {
   color: #E6E6E6;
   text-decoration: none;
   padding: 8px 12px;
+  position: sticky;
+  top: 0;
 }
 
 .top-nav a:hover {
