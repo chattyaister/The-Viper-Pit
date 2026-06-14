@@ -112,11 +112,18 @@ body {
   }
 }
 
+.character-quote {
+    font-style: italic;
+    font-size: 1.6em;
+    color: #d8b4fe;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .reveal-quote {
     opacity: 0;
     filter: blur(12px);
     transform: translateY(10px);
-
     transition:
         opacity 1.5s ease,
         filter 1.5s ease,
