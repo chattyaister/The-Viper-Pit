@@ -84,6 +84,10 @@ p {
     margin: 0px 0;
 }
 
+pre {
+    color: #E6E6E6;
+}
+
 .landing-page {
     height: 100vh;
     display: flex;
