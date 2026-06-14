@@ -84,8 +84,12 @@ pre {
 color: #E6E6E6;
 }
 
-.access-warning {
+.red {
 color: #A11500;
+}
+
+.gray {
+color: #808080;
 }
 
 .landing-page {
