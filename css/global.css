@@ -34,7 +34,7 @@ footer {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
         ),
-        url("bg/viper pit.jpg");
+        url("../bg/viper pit.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ footer {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
         ),
-        url("bg/scales.jpg");
+        url("..bg/scales.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
