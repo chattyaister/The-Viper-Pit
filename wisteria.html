@@ -257,30 +257,50 @@ const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".top-nav a");
 
 window.addEventListener("scroll", () => {
+  let current = "";
 
-    let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
 
-    sections.forEach(section => {
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute("id");
+    }
+  });
 
-        const sectionTop = section.offsetTop - 150;
+  navLinks.forEach(link => {
+    link.classList.remove("active");
 
-        if (window.scrollY >= sectionTop) {
-            current = section.getAttribute("id");
-        }
-
-    });
-
-    navLinks.forEach(link => {
-
-        link.classList.remove("active");
-
-        if (link.getAttribute("href") === "#" + current) {
-            link.classList.add("active");
-        }
-
-    });
-
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
 });
+</script>
+
+<script>
+function showPage(pageId) {
+  const pages = document.querySelectorAll('.page');
+
+  pages.forEach(page => {
+    page.classList.remove('active');
+    page.style.animation = 'none';
+  });
+
+  const selectedPage = document.getElementById(pageId);
+
+  if (!selectedPage) {
+    console.log("No page found with id:", pageId);
+    return;
+  }
+
+  selectedPage.style.animation = 'none';
+  selectedPage.offsetHeight;
+  selectedPage.style.animation = '';
+
+  selectedPage.classList.add('active');
+}
+</script>
+  
 <script>
 function showPage(pageId) {
   const pages = document.querySelectorAll('.page');
