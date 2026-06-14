@@ -267,3 +267,8 @@ box-shadow: 0 0 30px #A11500;
     box-shadow:
         0 0 12px rgba(161,21,0,0.25);
 }
+
+.archive-container {
+    text-align: center;
+    justify-content: center;
+}
