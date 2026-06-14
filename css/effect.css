@@ -146,31 +146,15 @@ body {
     max-height: 5000px;
 }
 
-top-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-
-  padding: 12px;
-  background: #111;
-}
-
-.top-nav a {
-  color: #E6E6E6;
-  text-decoration: none;
-  padding: 8px 12px;
-  position: sticky;
-  top: 0;
-}
-
-.top-nav a:hover {
-  background: #333;
-}
-
-html {
-  scroll-behavior: smooth;
+.top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    background: rgba(8, 8, 8, 0.95);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #333;
 }
