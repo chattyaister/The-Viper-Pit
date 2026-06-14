@@ -60,3 +60,11 @@ body {
     opacity: 0;
     transform: scale(0.95);
 }
+
+.page {
+    display: none;
+}
+
+#page1 {
+    display: block;
+}
