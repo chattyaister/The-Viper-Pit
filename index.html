@@ -316,16 +316,6 @@ The Viper Pit has existed for 30 years, initially under different leaders and un
   </div>
 </div>
 
-<script>
-function showPage(pageId) {
-  document.querySelectorAll('.page').forEach(page => {
-    page.classList.remove('active');
-  });
-
-  document.getElementById(pageId).classList.add('active');
-}
-</script>
-
 CSS:
     </section>
     </main>
@@ -362,6 +352,15 @@ CSS:
 
 
 
+    <script>
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(page => {
+    page.classList.remove('active');
+  });
+
+  document.getElementById(pageId).classList.add('active');
+}
+</script>
 
 <script>
 document.getElementById("popup").addEventListener("click", function() {
