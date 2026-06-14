@@ -128,7 +128,7 @@ display: inline-block;
 margin-top: 5px;
 padding: 10px 15px;
 
-background: #7c3aed;
+background: #A11500;
 color: white;
 
 text-decoration: none;
@@ -137,7 +137,7 @@ font-weight: bold;
 }
 
 .file-button:hover {
-background: #a855f7;
+background: #751000;
 transform: scale(1.05);
 }
 
