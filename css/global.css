@@ -233,5 +233,6 @@ gap: 25px;
 }
 
 .spotify-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
