@@ -170,6 +170,17 @@ body {
     text-shadow: 0 0 8px #A11500;
 }
 
+.top-nav a.active {
+    color: #ffffff;
+    text-shadow:
+        0 0 5px #A11500,
+        0 0 10px #A11500;
+}
+
+.top-nav a.active::after {
+    width: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
