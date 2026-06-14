@@ -73,10 +73,6 @@ color: #E6E6E6;
     margin: 10px 0;
 }
 
-access-warning {
-color: #A11500;
-}
-
 p {
 color: #E6E6E6;
 font-size: 18px;
@@ -88,7 +84,7 @@ pre {
 color: #E6E6E6;
 }
 
-.warning-text {
+access-warning {
 color: #A11500;
 }
 
