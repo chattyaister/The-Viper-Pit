@@ -172,13 +172,13 @@ pre {
 }
 
 .severe {
-    border-left-color: #FF8000;
-    border-right-color: #FF8000;
+    border-left-color: #A16500;
+    border-right-color: #A16500;
 }
 
 .unknown {
-    border-left-color: #FFE999;
-    border-right-color: #FFE999;
+    border-left-color: #A18C00;
+    border-right-color: #A18C00;
 }
 
 .dossier-card.show {
