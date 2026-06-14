@@ -240,3 +240,7 @@ box-shadow: 0 0 30px #A11500;
     display: flex;
     justify-content: center;
 }
+
+.back-link {
+    color: #A11500;
+}
