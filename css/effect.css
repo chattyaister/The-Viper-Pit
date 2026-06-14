@@ -70,13 +70,13 @@ body {
   width: 200px;
   padding: 20px;
   background: #222;
-  margin: 5px;
+  margin: 20px;
 }
 
 .sidebar button {
   display: block;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   padding: 10px;
   cursor: pointer;
 }
