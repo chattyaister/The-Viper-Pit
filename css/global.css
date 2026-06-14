@@ -86,6 +86,10 @@ pre {
     color: #E6E6E6;
 }
 
+.warning-text {
+    color: #A11500;
+}
+
 .landing-page {
     height: 100vh;
     display: flex;
@@ -139,17 +143,6 @@ pre {
     transform: scale(1.05);
 }
 
-h1,
-h2,
-.warning-text,
-.file-label {
-    font-family: "Share Tech Mono", monospace;
-}
-
-.warning-text {
-    color: #A11500;
-}
-
 .transparent-card {
     background: rgba(15, 15, 15, 0.00);
     border: 1px solid rgba(192, 132, 252, 0.0);
@@ -179,13 +172,13 @@ h2,
 }
 
 .severe {
-    border-left-color: #9333ea;
-    border-right-color: #9333ea;
+    border-left-color: #FFA257;
+    border-right-color: #FFA257;
 }
 
 .unknown {
-    border-left-color: #64748b;
-    border-right-color: #64748b;
+    border-left-color: #FFE999;
+    border-right-color: #FFE999;
 }
 
 .dossier-card.show {
