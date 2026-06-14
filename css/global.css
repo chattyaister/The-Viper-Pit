@@ -194,6 +194,16 @@ pre {
     box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
 }
 
+.archive {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
