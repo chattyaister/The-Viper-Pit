@@ -1,220 +1,238 @@
 .site-header {
-    text-align: center;
+text-align: center;
 }
 
 .header-divider {
-    width: 300px;
-    height: 2px;
-    margin: 10px auto;
-    background: linear-gradient(
-        to right,
-        transparent,
-        #c084fc,
-        transparent
-    );
+width: 300px;
+height: 2px;
+margin: 10px auto;
+background: linear-gradient(
+to right,
+transparent,
+#c084fc,
+transparent
+);
 }
 
 footer {
-    text-align: center;
-    color: #666666;
-    padding: 30px;
-    border-top: 1px solid #222222;
+text-align: center;
+color: #666666;
+padding: 30px;
+border-top: 1px solid #222222;
 }
 
 
 .landing-body {
-    background-repeat: no-repeat;
-    font-family: Georgia, serif;
-    margin: 0;
-    background: #080808;
-    background-image:
-        linear-gradient(
-            rgba(0,0,0,0.7),
-            rgba(0,0,0,0.7)
-        ),
-        url("../bg/viper pit.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+background-repeat: no-repeat;
+font-family: Georgia, serif;
+margin: 0;
+background: #080808;
+background-image:
+linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)
+),
+url("../bg/viper pit.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
 }
 
 .archive-body {
-    background-repeat: no-repeat;
-    font-family: Georgia, serif;
-    margin: 0;
-    background: #080808;
-    background-image:
-        linear-gradient(
-            rgba(0,0,0,0.7),
-            rgba(0,0,0,0.7)
-        ),
-        url("..bg/scales.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+background-repeat: no-repeat;
+font-family: Georgia, serif;
+margin: 0;
+background: #080808;
+background-image:
+linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)
+),
+url("..bg/scales.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
 }
 
 h1 {
-    color: #A11500;
-    font-size: 42px;
-    margin: 5px 0;
+color: #A11500;
+font-size: 42px;
+margin: 5px 0;
 }
 
 h2 {
-    color: #A11500;
+color: #A11500;
+font-size: 26px;
+margin: 0px 0;
+}
+
+h3 {
+color: #E6E6E6;
+    font-size: 20px;
+    font-size: 42px;
+    margin: 0px 0;
+}
+
+h4 {
+    color: #E6E6E6;
     font-size: 26px;
-    margin: 0px 0;
-}
-
-p {
-    color: #E6E6E6;
-    font-size: 18px;
-    margin: 0px 0;
-}
-
-pre {
-    color: #E6E6E6;
+margin: 0px 0;
 }
 
 access-warning {
-    color: #A11500;
+color: #A11500;
+}
+
+p {
+color: #E6E6E6;
+font-size: 18px;
+margin: 0px 0;
+}
+
+pre {
+color: #E6E6E6;
+}
+
+.warning-text {
+color: #A11500;
+}
 
 .landing-page {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
 }
 
 .landing-card {
-    background: rgba(21, 21, 21, 0.7);
-    border: 1px solid #333333;
-    border-left: 6px solid #A11500;
-    border-right: 6px solid #A11500;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
+background: rgba(21, 21, 21, 0.7);
+border: 1px solid #333333;
+border-left: 6px solid #A11500;
+border-right: 6px solid #A11500;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
 }
 
 .enter-button {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 15px 30px;
-    background: #A11500;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.4s ease;
+display: inline-block;
+margin-top: 5px;
+padding: 15px 30px;
+background: #A11500;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+transition: 0.4s ease;
 }
 
 .enter-button:hover {
-    background: #751000;
-    transform: scale(1.05);
+background: #751000;
+transform: scale(1.05);
 }
 
 .file-button {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 10px 15px;
+display: inline-block;
+margin-top: 5px;
+padding: 10px 15px;
 
-    background: #7c3aed;
-    color: white;
+background: #7c3aed;
+color: white;
 
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
 }
 
 .file-button:hover {
-    background: #a855f7;
-    transform: scale(1.05);
+background: #a855f7;
+transform: scale(1.05);
 }
 
 .transparent-card {
-    background: rgba(15, 15, 15, 0.00);
-    border: 1px solid rgba(192, 132, 252, 0.0);
-    border-left: 6px solid rgba(124, 58, 237, 0.0);
-    border-radius: 10px;
-    text-align: center;
-    padding: 0px;
-    margin: 0px auto;
-    max-width: 1200px;
-    box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
-    backdrop-filter: blur(0px);
+background: rgba(15, 15, 15, 0.00);
+border: 1px solid rgba(192, 132, 252, 0.0);
+border-left: 6px solid rgba(124, 58, 237, 0.0);
+border-radius: 10px;
+text-align: center;
+padding: 0px;
+margin: 0px auto;
+max-width: 1200px;
+box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
+backdrop-filter: blur(0px);
 }
 
 .dossier-card {
-    background: #151515;
-    border: 1px solid #333333;
-    border-left: 8px solid #808080;
-    border-right: 8px solid #808080;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
+background: #151515;
+border: 1px solid #333333;
+border-left: 8px solid #808080;
+border-right: 8px solid #808080;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
 }
 
 .extreme {
-    border-left-color: #dc2626;
-    border-right-color: #dc2626;
+border-left-color: #dc2626;
+border-right-color: #dc2626;
 }
 
 .severe {
-    border-left-color: #B07000;
-    border-right-color: #B07000;
+border-left-color: #B07000;
+border-right-color: #B07000;
 }
 
 .unknown {
-    border-left-color: #E3DAA6;
-    border-right-color: #E3DAA6;
+border-left-color: #E3DAA6;
+border-right-color: #E3DAA6;
 }
 
 .dossier-card.show {
-    opacity: 1;
-    transform: translateY(0);
+opacity: 1;
+transform: translateY(0);
 }
 
 .dossier-card:hover {
-    transform: translateY(-5px);
+transform: translateY(-5px);
 }
 
 .dossier-card:hover {
-    box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
+box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
 }
 
 .archive {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
+max-width: 1000px;
+margin: 40px auto;
+padding: 20px;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 25px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 25px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+display: flex;
+justify-content: center;
+gap: 20px;
 
-    padding: 15px;
-    background: rgba(10, 10, 10, 0.8);
+padding: 15px;
+background: rgba(10, 10, 10, 0.8);
 
-    border-top: 1px solid #7c3aed;
-    border-bottom: 1px solid #7c3aed;
+border-top: 1px solid #7c3aed;
+border-bottom: 1px solid #7c3aed;
 }
 
 .navbar a {
-    color: #d8b4fe;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px;
+color: #d8b4fe;
+text-decoration: none;
+font-weight: bold;
+letter-spacing: 1px;
 
-    transition: 0.3s ease;
+transition: 0.3s ease;
 }
 
 .navbar a:hover {
-    color: white;
-    text-shadow: 0 0 10px #c084fc;
+color: white;
+text-shadow: 0 0 10px #c084fc;
 }
