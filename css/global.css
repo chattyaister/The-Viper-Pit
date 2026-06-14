@@ -205,15 +205,12 @@ transform: translateY(-5px);
 box-shadow: 0 0 30px #A11500;
 }
 
-
-
 .archive {
-max-width: 1000px;
-margin: 40px auto;
-padding: 20px;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-gap: 25px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .profile-grid {
