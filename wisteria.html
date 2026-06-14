@@ -68,64 +68,69 @@
             <img src="img/Wisteria Insig.png" alt="Wisteria" class="portrait">
         </section>
 </main>
-
+  
 <main class="archive">
-    <section class="dossier-card">
-            <h2>Psychological Assessment</h2>
+    <section id="bio" class="dossier-card">
+<div class="layout">
+  <div class="sidebar">
+    <button class="file-button"onclick="showPage('psy')">Psychological Assessment</button>
+    <button class="file-button"onclick="showPage('likes')">Likes</button>
+    <button class="file-button"onclick="showPage('dislikes')">Dislikes</button>
+    <button class="file-button"onclick="showPage('good')">Good Habits</button>
+    <button class="file-button"onclick="showPage('bad')">Bad Habits</button>
+    <button class="file-button"onclick="showPage('fears')">Fears</button>
+    <button class="file-button"onclick="showPage('secrets')">Secrets</button>
+  </div>
+  
+  <div class="content">
+    <div id="psy" class="page active">
+                 <h1>Psychological Assessment</h1>
             <p>Pleasant on the outside, the viper is all blissful smiles and happy chatters, disarming people with an almost childlike sincerity. She is playful, happy, chipper and chatty, and will chatter away with strangers on a whim without much friction… that is, unless she starts finding someone a little *too* interesting.</p>
             <p>Beneath the surface of her playful and chipper facade, lies something deeply flawed. While normally she is agreeable and easy to approach, once she finds someone of her interest, she will latch onto them, trying to find out what buttons to push to get them to break. She does not feel empathy towards people, watching people with the same idle fascination a child would with a trapped insect- like children would poke and prod an insect to watch it squirm, she breaks people, to see what spills- grief, fear, screams and desperation.</p>
             <p>She is drawn to intense emotions, like moth to a fire, like grimm to negativity. </p>
-        </section>
-</main>
-
-  <main class="archive">
-    <section class="dossier-card">
-            <h2>Likes</h2>
+    </div>
+    
+   <div id="likes" class="page">  
+               <h2>Likes</h2>
             <p><strong>Intense emotions.</strong> She finds amusement in watching people unfurl emotionally, and will often poke and prod people to see their reactions, if they unravel or not.</p>
             <p><strong>Snakes.</strong> Need I say?</p>
             <p><strong>Soft stuff.</strong> pillows, blankets, plush throws, thick fabrics. If it’s soft and cushiony, she probably likes it.</p>
             <p><strong>Breaking people.</strong> a hobby of hers, really, she likes dismantling the inner workings of people, verbally and emotionally, bit by bit. She enjoys breaking people apart to see what spills.</p>
             <p><strong>Sweets, Coffee.</strong> Mmm.. Caramel Macchiato..</p>
-        </section>
-            
-        <section class="dossier-card">
-            <h2>Dislikes</h2>
+   </div>
+      <div id="dislikes" class="page"> 
+                <h2>Dislikes</h2>
             <p><strong>Boredom.</strong> She can’t stand it, there’s just gotta be some kind of fun, all the time, everywhere. When the situation turns a bit bland, she quickly changes her focus elsewhere.</p>
             <p><strong>Lack of Interaction.</strong> people who don’t interact with her in any meaningful way, whether it be through combat or general amusing chit-chat, she finds unbearably boring.</p>
             <p><strong>Wasteful Violence.</strong> Fights that end too quick, violence without theatrics and fun. She fights, but she’d much rather the fight be fun.</p>
-        </section>
-  </main>
-  
-  <main class="archive">
-                     </section>           
-        <section class="dossier-card">
-            <h2>Good Habits</h2>
+        
+     </div>
+     <div id="good" class="page">
+<h2>Good Habits</h2>
             <p>She is highly adaptable, reading situations and fights and adjusting herself accordingly to keep her interest going for as long as possible.  </p>
-        </section>
-
-         </section>           
-        <section class="dossier-card">
-            <h2>Bad Habits</h2>
+     </div>
+      <div id="bad" class="page">
+<h2>Bad Habits</h2>
             <p>She has a habit of messing around too long for her own good, playing games whether it be against grimm or other people- even when it costs her, as long as it keeps her entertained.  </p>
             <p>She’ll dance with the fire till she burns too.</p>
-        </section>
-  </main>
-
-  <main class="archive">
-        <section class="dossier-card">
-            <h2>Secrets</h2>
+     </div>
+      <div id="fears" class="page">
+  <h2>Secrets</h2>
             <p>She keeps just a few people around in her life close… Most do not interest her long enough for her to collect. She appreciates these few more than she lets on, as they provide her with ample opportunities and intrigue to fuel her curiosity. </p>
-            
-
-        </section>           
-        <section class="dossier-card">
-            <h2>Fears</h2>
+     </div>
+      <div id="secrets" class="page">
+ <h2>Fears</h2>
             <p>Unending boredom. Not quite a fear, in the sense that it scares her or causes panic, but a fear in the sense that she can’t stand the idea of it. </p>
-            <p>When things stop interacting with her, when things start becoming bland, when things start becoming too unsurprising, too predictable, too boring, it instills a sense of… emptiness, she can’t shake off. And she needs something to keep her feeling alive.
-This form of isolation erases her. </p>
-        </section>
-  </main>
+            <p>When things stop interacting with her, when things start becoming bland, when things start becoming too unsurprising, too predictable, too boring, it instills a sense of… emptiness, she can’t shake off. And she needs something to keep her feeling alive. This form of isolation erases her. </p>
+     </div>
+  
+    
+  </div>
+</div>
+    </section>
+</main>
 
+  
 <main class="archive">
     <section id="bio" class="dossier-card">
 <div class="layout">
@@ -139,6 +144,7 @@ This form of isolation erases her. </p>
   <div class="content">
     <div id="wis" class="page active">
       <h1>Wisteria Euphony</h1>
+      <p>A chapter of Wisteria's life</p>
     </div>
    <div id="wis1" class="page">  
                <h1>Friends with Chaos</h1>
@@ -147,7 +153,8 @@ This form of isolation erases her. </p>
     </div>
       <div id="wis2" class="page"> 
                <h1>Awakening</h1>
-               <p>She and her mother would be be next, for the market. They knew that the debtee weren’t done with just the father, the money he owed was great, and him alone wasn’t enough to pay the price. She had to act before they did. So one day she headed to the mountains, searching for flowers. Oleanders, belladonnas, Lilly of the valleys, aconitums. And when she came home, she’d be ready, a bottle of liquor adorned in flowers inside and out. And when her mother awoke from her slumber, Wisteria would offer her the bottle, as she always did. Her mother narrowed her eyes, sloshing the bottle of liquid and flowers, with a questioning look.</p>
+               <p>She and her mother would be be next for the market.</p>
+               <p>They knew that the debtee weren’t done with just the father, the money he owed was great, and him alone wasn’t enough to pay the price. She had to act before they did. So one day she headed to the mountains, searching for flowers. Oleanders, belladonnas, Lilly of the valleys, aconitums. And when she came home, she’d be ready, a bottle of liquor adorned in flowers inside and out. And when her mother awoke from her slumber, Wisteria would offer her the bottle, as she always did. Her mother narrowed her eyes, sloshing the bottle of liquid and flowers, with a questioning look.</p>
                <p>“I heard it makes it go down smoother.”</p>
                <p>The girl spoke to her mother, shrugging her shoulders, as if uncertain herself. Her head tilted as her mother downed the bottle per usual, not giving it much thought. She never did, she never did. Two? Five? Ten minutes? Her mother coughed. Wisterias eyes glimmered, turning to her mother, who had stopped in her tracks. She coughed again, her entire frame shook with the effort.</p>
                <p>“I don’t f…"</p>
