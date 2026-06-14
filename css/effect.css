@@ -53,13 +53,10 @@ body {
 }
 
 .popup-content {
-    text-align: center;
-    padding: 30px;
-    border: 1px solid #7c3aed;
-    background: #111;
+    transition: transform 1.5s ease, opacity 1.5s ease;
 }
 
-
-#popup.hidden {
+#popup.hidden .popup-content {
     opacity: 0;
+    transform: scale(0.95);
 }
