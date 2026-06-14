@@ -281,15 +281,21 @@ window.addEventListener("scroll", () => {
     });
 
 });
-</script>
+<script>
 function showPage(pageId) {
   const pages = document.querySelectorAll('.page');
   pages.forEach(page => {
     page.classList.remove('active');
+    page.style.animation = 'none';
   });
   const selectedPage = document.getElementById(pageId);
+  selectedPage.style.animation = 'none';
+  selectedPage.offsetHeight; // forces browser to reset animation
+  selectedPage.style.animation = '';
+
   selectedPage.classList.add('active');
 }
+</script>
   
 </body>
 </html>
