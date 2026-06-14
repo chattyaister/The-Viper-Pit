@@ -21,7 +21,6 @@ padding: 30px;
 border-top: 1px solid #222222;
 }
 
-
 .landing-body {
 background-repeat: no-repeat;
 font-family: Georgia, serif;
@@ -90,6 +89,11 @@ color: #A11500;
 
 .gray {
 color: #808080;
+}
+
+.subtitle {
+    color: #aaaaaa;
+    font-style: italic;
 }
 
 .landing-page {
