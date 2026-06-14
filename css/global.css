@@ -212,8 +212,9 @@ box-shadow: 0 0 30px #A11500;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
 }
-
 
 .profile-grid {
     display: grid;
