@@ -280,7 +280,9 @@ It existed for 30 years, under different leaders and under the name of the Vermi
     <p>This is the third page.</p>
     <button onclick="showPage('page2')">Previous</button>
 </div>
-  
+
+
+    
 </body>
 
 <section class="transparent-card">
@@ -329,6 +331,16 @@ entry.target.classList.add("show");
 reveals.forEach(item => observer.observe(item));
 </script>
 
+<script>
+function showPage(pageId) {
+    document.querySelectorAll('.page').forEach(page => {
+        page.style.display = 'none';
+    });
+
+    document.getElementById(pageId).style.display = 'block';
+}
+</script>
+    
 </body>
 </html>
 
