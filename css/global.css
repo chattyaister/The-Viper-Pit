@@ -231,6 +231,8 @@ box-shadow: 0 0 30px #A11500;
     width: 100%;
     height: auto;
     justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .spotify-container {
