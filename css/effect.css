@@ -61,19 +61,34 @@ body {
     transform: scale(0.95);
 }
 
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background: #222;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
 .page {
-    display: none;
+  display: none;
 }
 
-#home {
-    display: block;
-}
-
-.nav {
-    margin-bottom: 20px;
-}
-
-.nav button {
-    margin-right: 10px;
-    padding: 8px 16px;
+.page.active {
+  display: block;
 }
