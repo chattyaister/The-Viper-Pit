@@ -206,11 +206,11 @@ box-shadow: 0 0 30px #A11500;
 }
 
 .archive {
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .profile-grid {
