@@ -352,13 +352,17 @@ CSS:
 
 
 
-   <script>
-function showPage(pageId) {
-  document.querySelectorAll('.page').forEach(page => {
+  <script>
+    function showPage(pageId) {
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(page => {
     page.classList.remove('active');
-  });
-
-  document.getElementById(pageId).classList.add('active');
+    page.style.animation = 'none';
+    });
+    const page = document.getElementById(pageId);
+    page.offsetHeight; // force reflow
+    page.style.animation = '';
+    page.classList.add('active');
 }
 </script>
     
