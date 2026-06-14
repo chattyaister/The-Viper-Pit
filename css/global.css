@@ -227,10 +227,9 @@ box-shadow: 0 0 30px #A11500;
 }
 
 .portrait {
-    width: 800px;
+    max-width: 300px;
+    width: 100%;
     height: auto;
-    justify-content: center;
-    align-items: center;
 }
 
 .spotify-container {
