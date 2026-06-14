@@ -262,23 +262,31 @@ It existed for 30 years, under different leaders and under the name of the Vermi
 
 </section>
 
-<div id="page1" class="page">
-    <h1>Page 1</h1>
-    <p>This is the first page.</p>
-    <button onclick="showPage('page2')">Next</button>
+<div class="nav">
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('chapter1')">Chapter 1</button>
+    <button onclick="showPage('chapter2')">Chapter 2</button>
+    <button onclick="showPage('about')">About</button>
 </div>
 
-<div id="page2" class="page">
-    <h1>Page 2</h1>
-    <p>This is the second page.</p>
-    <button onclick="showPage('page1')">Previous</button>
-    <button onclick="showPage('page3')">Next</button>
+<div id="home" class="page">
+    <h1>Home</h1>
+    <p>Welcome!</p>
 </div>
 
-<div id="page3" class="page">
-    <h1>Page 3</h1>
-    <p>This is the third page.</p>
-    <button onclick="showPage('page2')">Previous</button>
+<div id="chapter1" class="page">
+    <h1>Chapter 1</h1>
+    <p>Lots of text here...</p>
+</div>
+
+<div id="chapter2" class="page">
+    <h1>Chapter 2</h1>
+    <p>More text here...</p>
+</div>
+
+<div id="about" class="page">
+    <h1>About</h1>
+    <p>Information about the site.</p>
 </div>
 
 
@@ -333,7 +341,9 @@ reveals.forEach(item => observer.observe(item));
 
 <script>
 function showPage(pageId) {
-    document.querySelectorAll('.page').forEach(page => {
+    const pages = document.querySelectorAll('.page');
+
+    pages.forEach(page => {
         page.style.display = 'none';
     });
 
