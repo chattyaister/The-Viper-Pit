@@ -47,6 +47,8 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    opacity: 1;
+    transition: opacity 1.5s ease;
 }
 
 .popup-content {
@@ -54,4 +56,9 @@ body {
     padding: 30px;
     border: 1px solid #7c3aed;
     background: #111;
+}
+
+
+#popup.hidden {
+    opacity: 0;
 }
