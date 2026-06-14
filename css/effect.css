@@ -135,3 +135,13 @@ body {
     filter: blur(0);
     transform: translateY(0);
 }
+
+.hidden-info {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.hidden-info.show {
+    max-height: 500px;
+}
