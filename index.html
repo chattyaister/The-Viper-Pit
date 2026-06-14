@@ -16,16 +16,6 @@
 </div>
 </div>
 
-<script>
-document.getElementById("popup").addEventListener("click", function() {
-this.classList.add("hidden");
-
-setTimeout(() => {
-this.remove();
-}, 500);
-});
-</script>
-
 <link rel="stylesheet" href="css/global.css">
 <link rel="stylesheet" href="css/animations.css">
 
@@ -342,7 +332,16 @@ CSS:
 
 
 
+<script>
+document.getElementById("popup").addEventListener("click", function() {
+this.classList.add("hidden");
 
+setTimeout(() => {
+this.remove();
+}, 500);
+});
+</script>
+    
 <script>
 const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
 
