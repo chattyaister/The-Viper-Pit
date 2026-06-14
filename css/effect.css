@@ -152,11 +152,22 @@ body {
     z-index: 1000;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     padding: 12px;
-    background: rgba(8, 8, 8, 0.95);
-    backdrop-filter: blur(5px);
-    border-bottom: 1px solid #333;
+    backdrop-filter: blur(8px);
+    background: rgba(8,8,8,0.85);
+    border-bottom: 1px solid #A11500;
+}
+
+.top-nav a {
+    color: #E6E6E6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: white;
+    text-shadow: 0 0 8px #A11500;
 }
 
 html {
