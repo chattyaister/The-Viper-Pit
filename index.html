@@ -352,18 +352,7 @@ CSS:
 
 
 
-  <script>
-    function showPage(pageId) {
-    const pages = document.querySelectorAll('.page');
-    pages.forEach(page => {
-    page.classList.remove('active');
-    page.style.animation = 'none';
-    });
-    const page = document.getElementById(pageId);
-    page.offsetHeight; // force reflow
-    page.style.animation = '';
-    page.classList.add('active');
-}
+
 </script>
     
 <script>
@@ -378,7 +367,6 @@ this.remove();
     
 <script>
 const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
-
 const observer = new IntersectionObserver((entries) => {
 entries.forEach(entry => {
 if (entry.isIntersecting) {
@@ -386,21 +374,21 @@ entry.target.classList.add("show");
 }
 });
 });
-
 reveals.forEach(item => observer.observe(item));
 </script>
 
-<script>
-function showPage(pageId) {
+  <script>
+    function showPage(pageId) {
     const pages = document.querySelectorAll('.page');
-
     pages.forEach(page => {
-        page.style.display = 'none';
+    page.classList.remove('active');
+    page.style.animation = 'none';
     });
-
-    document.getElementById(pageId).style.display = 'block';
+    const page = document.getElementById(pageId);
+    page.offsetHeight; // force reflow
+    page.style.animation = '';
+    page.classList.add('active');
 }
-</script>
     
 </body>
 </html>
