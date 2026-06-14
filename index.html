@@ -264,32 +264,48 @@ The Viper Pit has existed for 30 years, initially under different leaders and un
 
     <main class="archive">
     <section class="dossier-card">
-<div class="nav">
-    <button class="file-button"onclick="showPage('1')">Introduction</button>
-    <button class="file-button"onclick="showPage('2')">Chapter 1</button>
-    <button class="file-button"onclick="showPage('3')">Chapter 2</button>
-    <button class="file-button"onclick="showPage('4')">Chapter 3</button>
+<div class="layout">
+  <div class="sidebar">
+    <button onclick="showPage('1')">Introduction</button>
+    <button onclick="showPage('2')">Chapter 1</button>
+    <button onclick="showPage('3')">Chapter 2</button>
+    <button onclick="showPage('4')">Chapter 3</button>
+  </div>
+
+  <div class="content">
+    <div id="1" class="page active">
+      <h1>Home</h1>
+      <p>Welcome to my website!</p>
+    </div>
+
+    <div id="2" class="page">
+      <h1>Characters</h1>
+      <p>Character information goes here.</p>
+    </div>
+
+    <div id="3" class="page">
+      <h1>Lore</h1>
+      <p>Lore text goes here.</p>
+    </div>
+
+    <div id="4" class="page">
+      <h1>About</h1>
+      <p>About this site.</p>
+    </div>
+  </div>
 </div>
 
-<div id="1" class="page">
-    <h1>Home</h1>
-    <p>Welcome!</p>
-</div>
+<script>
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(page => {
+    page.classList.remove('active');
+  });
 
-<div id="2" class="page">
-    <h1>Chapter 1</h1>
-    <p>Lots of text here...</p>
-</div>
+  document.getElementById(pageId).classList.add('active');
+}
+</script>
 
-<div id="3" class="page">
-    <h1>Chapter 2</h1>
-    <p>More text here...</p>
-</div>
-
-<div id="4" class="page">
-    <h1>About</h1>
-    <p>Information about the site.</p>
-</div>
+CSS:
     </section>
     </main>
     
