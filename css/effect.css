@@ -29,6 +29,8 @@
 }
 
 
+
+
 html,
 body {
     margin: 0;
@@ -217,4 +219,21 @@ html {
 #hidden-file {
     margin-top: 20px;
      color: #E6E6E6;
+}
+
+.popup {
+    animation: glowPulse 6s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        box-shadow:
+            0 0 15px rgba(161, 21, 0, 0.15);
+    }
+
+    50% {
+        box-shadow:
+            0 0 30px rgba(161, 21, 0, 0.3);
+    }
+
 }
