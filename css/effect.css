@@ -221,4 +221,45 @@ html {
      color: #E6E6E6;
 }
 
-    
+.popup-content::before {
+
+    filter: blur(60px);
+
+}
+
+.popup-content::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+
+    height: 800px;
+
+    background: radial-gradient(
+
+        circle,
+
+        rgba(161, 21, 0, 0.20) 0%,
+
+        rgba(161, 21, 0, 0.10) 30%,
+
+        rgba(161, 21, 0, 0.04) 60%,
+
+        transparent 100%
+
+    );
+
+    pointer-events: none;
+
+    z-index: -1;
+
+}
+
