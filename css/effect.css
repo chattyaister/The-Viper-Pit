@@ -221,7 +221,7 @@ html {
      color: #E6E6E6;
 }
 
-.popup {
+.popup-content {
     animation: glowPulse 6s ease-in-out infinite;
 }
 
