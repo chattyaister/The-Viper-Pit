@@ -213,3 +213,7 @@ html {
 .hidden {
     display: none;
 }
+
+#hidden-file {
+    margin-top: 20px;
+}
