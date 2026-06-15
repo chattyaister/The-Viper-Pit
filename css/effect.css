@@ -209,3 +209,7 @@ html {
     letter-spacing: 4px;
     pointer-events: none;
 }
+
+.hidden {
+    display: none;
+}
