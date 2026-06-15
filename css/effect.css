@@ -230,64 +230,97 @@ html {
 }
 
 .popup-content::before {
-
     content: "";
-
     position: absolute;
-
     top: 50%;
-
     left: 50%;
-
     transform: translate(-50%, -50%);
-
     width: 800px;
-
     height: 800px;
-
     background: radial-gradient(
-
         circle,
-
         rgba(161, 21, 0, 0.60) 0%,
-
         rgba(161, 21, 0, 0.40) 30%,
-
         rgba(161, 21, 0, 0.16) 60%,
-
         transparent 100%
-
     );
-
     pointer-events: none;
-
     z-index: -1;
-
 }
-
 body::before {
-
     content: "";
-
-    position: fixed;
-
+   position: fixed;
     inset: 0;
-
     background:
-
         repeating-linear-gradient(
-
             transparent 0px,
-
             transparent 2px,
-
             rgba(255,255,255,0.01) 2px,
-
             rgba(255,255,255,0.01) 3px
-
         );
-
     pointer-events: none;
-
 }
 
+
+.smoke-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.smoke {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.04) 0%,
+            rgba(255,255,255,0.02) 40%,
+            transparent 80%
+        );
+    filter: blur(40px);
+}
+
+@keyframes driftSmoke {
+    0% {
+        transform:
+            translateY(100vh)
+            translateX(0px)
+            scale(1);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.08;
+    }
+    80% {
+        opacity: 0.08;
+    }
+    100% {
+        transform:
+            translateY(-200px)
+            translateX(100px)
+            scale(1.5);
+        opacity: 0;
+    }
+}
+
+.smoke1 {
+    left: 10%;
+    animation: driftSmoke 25s linear infinite;
+}
+
+.smoke2 {
+    left: 50%;
+    animation: driftSmoke 35s linear infinite;
+    animation-delay: -10s;
+}
+
+.smoke3 {
+    left: 80%;
+    animation: driftSmoke 30s linear infinite;
+    animation-delay: -20s;
+}
