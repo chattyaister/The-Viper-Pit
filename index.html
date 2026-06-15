@@ -287,25 +287,26 @@ A strange presence within the organization. Harmless at first glance.
 
     </section>
 
-<main class="column">   
-<section class="dossier-card">
-<h2>Primary Assets</h2>
-<p>The criminal organization deals mostly in their specialized drug “Venom” and “Hush” as well as information, most notably information of huntsmen and huntresses, students of huntsmen/huntress schools and villains alike.</p>
+<main class="column">
+    <section class="dossier-card">
+        <h2>Primary Assets</h2>
+        <p>The criminal organization deals mostly in their specialized drug
+            “Venom” and “Hush” as well as information, most notably information
+            of huntsmen and huntresses, students of huntsmen/huntress schools
+            and villains alike.</p>
+        <div class="button-container">
+            <button class="file-button" onclick="toggleFile()">
+                Venom/Hush
+            </button>
+        </div>
 
-    <div class="button-container"> 
-        <button class=file-button onclick="toggleFile()">
-        Venom/Hush
-</div>
-</section>
-    
-<section class="dossier-card">
-<div id="hidden-file" class="hidden">
-    <h4>CLASSIFIED</h4>
-    <p>This information was not intended for public viewing.</p>
-</div>
-</section>
-    
-</main>   
+        <div id="hidden-file" class="hidden">
+            <h4>CLASSIFIED</h4>
+            <p>This information was not intended for public viewing.</p>
+        </div>
+    </section>
+
+</main>
 
     
 <main class="archive">   
@@ -426,7 +427,6 @@ function showPage(pageId) {
 
 <script>
 function toggleFile() {
-
     document
         .getElementById("hidden-file")
         .classList.toggle("hidden");
