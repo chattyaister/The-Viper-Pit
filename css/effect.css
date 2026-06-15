@@ -324,3 +324,58 @@ body::before {
     animation: driftSmoke 30s linear infinite;
     animation-delay: -20s;
 }
+
+.ember-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.ember {
+    position: absolute;
+    bottom: -20px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ff5a36;
+    box-shadow:
+        0 0 6px #ff5a36,
+        0 0 12px #ff5a36;
+    animation: emberRise 12s linear infinite;
+}
+
+.ember:nth-child(1) {
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.ember:nth-child(2) {
+    left: 50%;
+    animation-delay: -4s;
+}
+
+.ember:nth-child(3) {
+    left: 75%;
+    animation-delay: -8s;
+}
+
+@keyframes emberRise {
+
+    0% {
+        transform:
+            translateY(0)
+            translateX(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform:
+            translateY(-100vh)
+            translateX(50px);
+        opacity: 0;
+    }
+}
