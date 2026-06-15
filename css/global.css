@@ -287,3 +287,11 @@ box-shadow: 0 0 30px #A11500;
     text-align: center;
     justify-content: center;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "► ";
+}
