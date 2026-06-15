@@ -31,6 +31,8 @@
 
 
 
+
+
 html,
 body {
     margin: 0;
@@ -260,6 +262,32 @@ html {
     pointer-events: none;
 
     z-index: -1;
+
+}
+
+body::before {
+
+    content: "";
+
+    position: fixed;
+
+    inset: 0;
+
+    background:
+
+        repeating-linear-gradient(
+
+            transparent 0px,
+
+            transparent 2px,
+
+            rgba(255,255,255,0.01) 2px,
+
+            rgba(255,255,255,0.01) 3px
+
+        );
+
+    pointer-events: none;
 
 }
 
