@@ -193,13 +193,13 @@ border-right-color: #dc2626;
 }
 
 .severe {
-border-left-color: #B07000;
-border-right-color: #B07000;
+border-left-color: #A45BF5;
+border-right-color: #A45BF5;
 }
 
 .unknown {
-border-left-color: #E3DAA6;
-border-right-color: #E3DAA6;
+border-left-color: #B07000;
+border-right-color: #B07000;
 }
 
 .dossier-card.show {
