@@ -222,7 +222,13 @@ html {
 }
 
 .popup-content {
+
+    background: rgba(8, 8, 8, 0.95);
+
+    border: 1px solid rgba(161, 21, 0, 0.2);
+
     animation: glowPulse 6s ease-in-out infinite;
+
 }
 
 @keyframes glowPulse {
