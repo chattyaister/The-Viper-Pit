@@ -286,6 +286,11 @@ ul {
      color: #E6E6E6;
 }
 
+ul2 {
+    list-style-type: none;
+     color: #E6E6E6;
+}
+
 li::before {
     content: "► ";
      color: #E6E6E6;
