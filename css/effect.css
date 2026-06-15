@@ -272,17 +272,15 @@ body::before {
 
 .smoke {
     position: absolute;
-    width: 300px;
-    height: 300px;
+
+    width: 400px;
+    height: 400px;
+
+    background: red;
+
+    opacity: 0.5;
+
     border-radius: 50%;
-    background:
-        radial-gradient(
-            circle,
-            rgba(255,255,255,0.04) 0%,
-            rgba(255,255,255,0.02) 40%,
-            transparent 80%
-        );
-    filter: blur(40px);
 }
 
 @keyframes driftSmoke {
