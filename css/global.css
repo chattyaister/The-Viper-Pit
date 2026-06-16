@@ -3,24 +3,40 @@ text-align: center;
 }
 
 .header-divider {
-  width: 320px;
-  height: 1px;
-  margin: 18px auto;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(161, 21, 0, 0.8),
-    transparent
-  );
-  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 20px auto;
+    color: #A11500;
 }
 
-.header-divider::before {
-  content: "◆";
-  color: #A11500;
-  text-shadow: 0 0 8px rgba(161, 21, 0, 0.8);
+.header-divider::before,
+.header-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(161,21,0,0.8)
+    );
 }
 
+.header-divider::after {
+    background: linear-gradient(
+        to left,
+        transparent,
+        rgba(161,21,0,0.8)
+    );
+}
+
+.header-divider span {
+    margin: 0 15px;
+    color: #A11500;
+    text-shadow:
+        0 0 8px rgba(161,21,0,0.6);
+}
 footer {
 text-align: center;
 color: #666666;
