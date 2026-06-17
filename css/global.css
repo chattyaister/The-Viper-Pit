@@ -290,15 +290,6 @@ box-shadow: 0 0 30px #A11500;
     justify-content: center;
     display: block;
     margin: 0 auto;
-}
-
-.rounded-portrait {
-    max-width: 800px;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    display: block;
-    margin: 0 auto;
     border-radius: 25px;
 }
 
