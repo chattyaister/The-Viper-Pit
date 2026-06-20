@@ -11,6 +11,14 @@ text-align: center;
     color: #A11500;
 }
 
+.divider {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+    opacity: 0.4;
+}
+
 .header-divider::before,
 .header-divider::after {
     content: "";
