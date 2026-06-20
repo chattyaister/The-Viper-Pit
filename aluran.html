@@ -102,13 +102,13 @@
     <section class="dossier-card">
 <div class="layout">
   <div class="sidebar">
-    <button class="file-button"onclick="showPage('psy', 'page2')">Psychological Assessment</button>
-    <button class="file-button"onclick="showPage('likes', 'page2')">Likes</button>
-    <button class="file-button"onclick="showPage('dislikes', 'page2')">Dislikes</button>
-    <button class="file-button"onclick="showPage('good', 'page2')">Good Habits</button>
-    <button class="file-button"onclick="showPage('bad', 'page2')">Bad Habits</button>
-    <button class="file-button"onclick="showPage('fears', 'page2')">Fears</button>
-    <button class="file-button"onclick="showPage('secrets', 'page2')">Secrets</button>
+    <button class="file-button"onclick="showPage('psy')">Psychological Assessment</button>
+    <button class="file-button"onclick="showPage('likes')">Likes</button>
+    <button class="file-button"onclick="showPage('dislikes')">Dislikes</button>
+    <button class="file-button"onclick="showPage('good')">Good Habits</button>
+    <button class="file-button"onclick="showPage('bad')">Bad Habits</button>
+    <button class="file-button"onclick="showPage('fears')">Fears</button>
+    <button class="file-button"onclick="showPage('secrets')">Secrets</button>
   </div>
   
   <div class="content">
@@ -161,12 +161,12 @@
     <section id="bio" class="dossier-card">
 <div class="layout">
   <div class="sidebar">
-    <button class="file-button"onclick="showPage('al','page')">Aluran Nychta</button>
-    <button class="file-button"onclick="showPage('al1','page')">C1: Dad</button>
-    <button class="file-button"onclick="showPage('al2','page')">C2: Alone</button>
-    <button class="file-button"onclick="showPage('al3','page')">C3: Stay</button>
-    <button class="file-button"onclick="showPage('al4','page')">C3: Runaway</button>
-    <button class="file-button"onclick="showPage('al5','page')">C3: Escape</button>
+    <button class="file-button"onclick="showPage('al')">Aluran Nychta</button>
+    <button class="file-button"onclick="showPage('al1')">C1: Dad</button>
+    <button class="file-button"onclick="showPage('al2')">C2: Alone</button>
+    <button class="file-button"onclick="showPage('al3')">C3: Stay</button>
+    <button class="file-button"onclick="showPage('al4')">C3: Runaway</button>
+    <button class="file-button"onclick="showPage('al5')">C3: Escape</button>
   </div>
 
   <div class="content">
@@ -377,18 +377,6 @@ function showPage(pageId) {
   selectedPage.classList.add('active');
 }
 </script>
-
-  <script>
-function showPage(pageId, groupClass) {
-  const pages = document.querySelectorAll("." + groupClass);
-
-  pages.forEach(page => {
-    page.classList.remove("active");
-  });
-
-  document.getElementById(pageId).classList.add("active");
-}
-  
   
 </body>
 </html>
