@@ -377,6 +377,18 @@ function showPage(pageId) {
   selectedPage.classList.add('active');
 }
 </script>
+
+  <script>
+function showPage(pageId, groupClass) {
+  const pages = document.querySelectorAll("." + groupClass);
+
+  pages.forEach(page => {
+    page.classList.remove("active");
+  });
+
+  document.getElementById(pageId).classList.add("active");
+}
+</script>
   
 </body>
 </html>
