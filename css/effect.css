@@ -105,6 +105,25 @@ body {
   animation: fadeIn 1.0s ease;
 }
 
+
+
+.content2 {
+  flex: 1;
+  position: relative;
+  align-self: flex-start;
+}
+
+.page2 {
+  display: none;
+}
+
+.page.active2 {
+  display: block;
+  animation: fadeIn 1.0s ease;
+}
+
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
