@@ -96,22 +96,14 @@ body {
   align-self: flex-start;
 }
 
-.page {
+.bio-page,
+.story-page {
   display: none;
 }
 
-.page.active {
+.bio-page.active,
+.story-page.active {
   display: block;
-  animation: fadeIn 1.0s ease;
-}
-
-.page2 {
-  display: none;
-}
-
-.page.active2 {
-  display: block;
-  animation: fadeIn 1.0s ease;
 }
 
 
