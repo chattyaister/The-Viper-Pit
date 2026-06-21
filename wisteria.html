@@ -384,15 +384,17 @@ function toggleFile() {
 
 <script>
 function toggleDetails(button) {
-  const details = button.nextElementSibling;
+  const details = button.closest(".mini-transparent-card").nextElementSibling;
 
   details.classList.toggle("open");
 
-  button.textContent = details.classList.contains("open")
-    ? "Less Details ▴"
-    : "More Details ▾";
+  button.innerHTML = details.classList.contains("open")
+    ? "<strong>⇡ Close Weapon Dossier ⇡</strong>"
+    : "<strong>⇣ Open Weapon Dossier ⇣</strong>";
 }
 </script>
+
+
   
 </body>
 </html>
