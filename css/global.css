@@ -151,18 +151,16 @@ padding: 25px;
 box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
 }
 
-.enter-button {
+.expand-button {
 display: inline-block;
 margin-top: 5px;
 padding: 15px 30px;
-background: #A11500;
 color: white;
 text-decoration: none;
-border-radius: 8px;
 transition: 0.4s ease;
 }
 
-.enter-button:hover {
+.expand-button:hover {
 background: #751000;
 transform: scale(1.05);
 }
