@@ -514,12 +514,13 @@ function showPage(pageId, groupClass) {
 
 <script>
 function toggleDetails(button) {
-  const details = button.closest(".mini-transparent-card").nextElementSibling;
+  const card = button.closest(".mini-transparent-card");
+  const details = card.querySelector(".slide-details");
 
   details.classList.toggle("open");
 
   button.innerHTML = details.classList.contains("open")
-    ? "<strong>⇣ Open Compound Dossier ⇣</strong>"
+    ? "<strong>⇡ Close Compound Dossier ⇡</strong>"
     : "<strong>⇣ Open Compound Dossier ⇣</strong>";
 }
 </script>
