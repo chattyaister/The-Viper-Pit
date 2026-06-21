@@ -483,19 +483,15 @@ entry.target.classList.add("show");
 reveals.forEach(item => observer.observe(item));
 </script>
 
-<script>
-function showPage(pageId) {
-  const pages = document.querySelectorAll('.page');
-  pages.forEach(page => {
-    page.classList.remove('active');
-    page.style.animation = 'none';
-  });
-  const selectedPage = document.getElementById(pageId);
-  selectedPage.style.animation = 'none';
-  selectedPage.offsetHeight; // forces browser to reset animation
-  selectedPage.style.animation = '';
+  <script>
+function showPage(pageId, groupClass) {
+  const pages = document.querySelectorAll("." + groupClass);
 
-  selectedPage.classList.add('active');
+  pages.forEach(page => {
+    page.classList.remove("active");
+  });
+
+  document.getElementById(pageId).classList.add("active");
 }
 </script>
 
