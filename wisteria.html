@@ -223,7 +223,7 @@
             
               <section class="mini-transparent-card">
         <div class="button-container">
-            <button class="expand-button" onclick="toggleFile()">
+            <button class="expand-button" onclick="toggleDetails(this)">
                <strong>⇣ Open Weapon Dossier ⇣</strong>
             </button>
         </div>
@@ -380,6 +380,18 @@ function toggleFile() {
 </script>
     
     
+</script>
+
+<script>
+function toggleDetails(button) {
+  const details = button.nextElementSibling;
+
+  details.classList.toggle("open");
+
+  button.textContent = details.classList.contains("open")
+    ? "Less Details ▴"
+    : "More Details ▾";
+}
 </script>
   
 </body>
