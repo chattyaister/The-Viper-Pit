@@ -48,7 +48,7 @@
 <title>Viper Pit Dossier</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="archive-body">
+<body class="archive-body popup-open">
 <header class="site-header">
 <h2 class="red">UNAUTHORIZED ACCESS DETECTED</h2>
 <h1 class="purple">VIPER PIT DOSSIER</h1>
@@ -572,6 +572,16 @@ entry.target.classList.add("show");
 });
 });
 reveals.forEach(item => observer.observe(item));
+</script>
+
+<script>
+document.getElementById("popup").addEventListener("click", function() {
+  this.classList.add("hidden");
+  document.body.classList.remove("popup-open");
+  setTimeout(() => {
+    this.remove();
+  }, 500);
+});
 </script>
     
 </body>
