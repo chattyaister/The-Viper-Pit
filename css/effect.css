@@ -53,6 +53,8 @@ body {
     align-items: center;
     z-index: 9999;
     text-align: center;
+    overflow-y: auto;
+    overscroll-behavior: contain;
     transition:
         opacity 2s ease,
         backdrop-filter 2s ease;
@@ -460,4 +462,9 @@ body::before {
 .slide-details.open {
   max-height: 10000px;
   opacity: 1;
+}
+
+body.popup-open {
+  overflow: hidden;
+  height: 100dvh;
 }
