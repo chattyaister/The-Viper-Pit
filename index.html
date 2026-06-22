@@ -561,11 +561,15 @@ function toggleDetails(button) {
 document.querySelectorAll(".type-reveal").forEach(quote => {
     const text = quote.textContent;
     quote.textContent = "";
-    [...text].forEach((letter, index) => {
-        const span = document.createElement("span");
-        span.textContent = letter;
-        span.style.animationDelay = `${index * 0.03}s`;
-        quote.appendChild(span);
+  [...text].forEach((letter, index) => {
+    const span = document.createElement("span");
+    span.innerHTML = letter === " "
+        ? "&nbsp;"
+        : letter;
+    span.style.animationDelay = `${index * 0.05}s`;
+    quote.appendChild(span);
+
+});
     });
 });
 </script>
