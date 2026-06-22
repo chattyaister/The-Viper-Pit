@@ -252,9 +252,7 @@ html {
 }
 
 .popup-content::before {
-
     filter: blur(60px);
-
 }
 
 .popup-content::before {
@@ -289,6 +287,10 @@ body::before {
     pointer-events: none;
 }
 
+body.popup-open {
+  overflow: hidden;
+  height: 100dvh;
+}
 
 .smoke-container {
     position: fixed;
@@ -464,7 +466,3 @@ body::before {
   opacity: 1;
 }
 
-body.popup-open {
-  overflow: hidden;
-  height: 100dvh;
-}
