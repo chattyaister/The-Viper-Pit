@@ -299,6 +299,22 @@
         });
     });
 
+  <script>
+document.querySelectorAll(".type-reveal").forEach(quote => {
+    const text = quote.textContent;
+    quote.textContent = "";
+  [...text].forEach((letter, index) => {
+    const span = document.createElement("span");
+    span.innerHTML = letter === " "
+        ? "&nbsp;"
+        : letter;
+    span.style.animationDelay = `${index * 0.10}s`;
+    quote.appendChild(span);
+
+});
+    });
+</script>
+  
     reveals.forEach(item => observer.observe(item));
 </script>
 
