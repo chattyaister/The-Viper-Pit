@@ -60,7 +60,7 @@
 
       <div class="divider"></div>
     
-<p class="character-quote reveal-quote">“The Kingdoms forgot us. The Viper Pit didn’t.”</p>
+<p class="character-quote reveal-quote type-reveal">“The Kingdoms forgot us. The Viper Pit didn’t.”</p>
 
 <section class="transparent-card">
 <img src="img/Viper Pit.png" alt="Viper Pit" class="portrait">
@@ -83,7 +83,7 @@
 </div>
 </header>
 
-<p class="character-quote reveal-quote">“The Doctor knows your name. The Viper knows your fears.”</p>
+<p class="character-quote reveal-quote type-reveal">“The Doctor knows your name. The Viper knows your fears.”</p>
     
 <main class="archive">
 <section class="dossier-card extreme">
@@ -169,7 +169,7 @@
   <section class="mini-transparent-card">
   </section>
 
-<p class="character-quote reveal-quote">“The Doctor builds, the Viper prunes.”</p>
+<p class="character-quote reveal-quote type-reveal">“The Doctor builds, the Viper prunes.”</p>
     
   <div class="divider"></div>
 
@@ -291,7 +291,7 @@
 
     </section>
 
-    <p class="character-quote reveal-quote">“The Vermillion hand took your future. The Viper Pit takes everything else.”</p>
+    <p class="character-quote reveal-quote type-reveal">“The Vermillion hand took your future. The Viper Pit takes everything else.”</p>
     
 <main class="column">
     <section class="dossier-card">
@@ -403,7 +403,7 @@
 
 </main>
 
-      <p class="character-quote reveal-quote">“The towns on Hush don't scream anymore.”</p>
+      <p class="character-quote reveal-quote type-reveal">“The towns on Hush don't scream anymore.”</p>
     
 <main class="archive">   
 <section class="dossier-card">
@@ -427,7 +427,7 @@
 
 </main>
 
-        <p class="character-quote reveal-quote">“The Viper coils where wisteria blooms.”</p> 
+        <p class="character-quote reveal-quote type-reveal">“The Viper coils where wisteria blooms.”</p> 
 
     <main class="archive"> 
 <section class="dossier-card">  
@@ -473,7 +473,7 @@
 
 </section>
 
-      <p class="character-quote reveal-quote">“If you hear the hiss of scales, run, you can’t hide.”</p>
+      <p class="character-quote reveal-quote type-reveal">“If you hear the hiss of scales, run, you can’t hide.”</p>
     
 <main class="archive"> 
 <section class="dossier-card">
@@ -557,6 +557,18 @@ function toggleDetails(button) {
 }
 </script>
 
+    <script>
+document.querySelectorAll(".type-reveal").forEach(quote => {
+    const text = quote.textContent;
+    quote.textContent = "";
+    [...text].forEach((letter, index) => {
+        const span = document.createElement("span");
+        span.textContent = letter;
+        span.style.animationDelay = `${index * 0.03}s`;
+        quote.appendChild(span);
+    });
+});
+</script>
     
     
 </body>
