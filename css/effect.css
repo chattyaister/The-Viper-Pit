@@ -141,7 +141,28 @@ body {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
-    transition-delay: 1.0s;
+    transition-delay: 0.7s;
+}
+
+.type-reveal span {
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(5px);
+}
+
+.type-reveal.show span {
+    animation: letterFade 0.4s forwards;
+}
+@keyframes letterFade {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hidden-info {
