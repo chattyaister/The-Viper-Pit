@@ -62,7 +62,7 @@
  <a href="index.html" class="archive-button">← Return to Archive</a>
 </div>
   
-       <p class="character-quote reveal-quote type-reveal">
+       <p class="character-quote reveal-quote">
     "I see you."</p>
 
 <main class="archive">  
@@ -158,7 +158,7 @@
     </section>
 </main>
 
-         <p class="character-quote reveal-quote type-reveal">
+         <p class="character-quote reveal-quote">
     "Fear is such an honest emotion"</p>
   
 <main class="archive">
@@ -277,7 +277,7 @@
         </section>
     </main>
 
-         <p class="character-quote reveal-quote type-reveal">
+         <p class="character-quote reveal-quote">
     "Silence is a little bland, don't you think?"</p>
 
 <section class="mini-transparent-card">
@@ -288,23 +288,17 @@
   <p class="gray">Mistral remembers the wisteria.</p>
 </footer>
 
+<script>
+    const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
 
-  <script>
-document.querySelectorAll(".type-reveal").forEach(quote => {
-    const text = quote.textContent;
-    quote.textContent = "";
-  [...text].forEach((letter, index) => {
-    const span = document.createElement("span");
-    span.innerHTML = letter === " "
-        ? "&nbsp;"
-        : letter;
-    span.style.animationDelay = `${index * 0.10}s`;
-    quote.appendChild(span);
-
-});
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
     });
-</script>
-  
+
     reveals.forEach(item => observer.observe(item));
 </script>
 
@@ -398,18 +392,7 @@ function toggleDetails(button) {
     ? "<strong>⇣ Open Weapon Dossier ⇣</strong>"
     : "<strong>⇣ Open Weapon Dossier ⇣</strong>";
 }
-  
 </script>
-<script>
-    const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
-        });
-    });
 
 
   
