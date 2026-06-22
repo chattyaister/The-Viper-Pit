@@ -289,20 +289,6 @@
 </footer>
 
 <script>
-    const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
-        });
-    });
-
-    reveals.forEach(item => observer.observe(item));
-</script>
-
-<script>
 function toggleInfo() {
     document
         .getElementById("extra-info")
@@ -392,6 +378,34 @@ function toggleDetails(button) {
     ? "<strong>⇣ Open Weapon Dossier ⇣</strong>"
     : "<strong>⇣ Open Weapon Dossier ⇣</strong>";
 }
+</script>
+
+     <script>
+document.querySelectorAll(".type-reveal").forEach(quote => {
+    const text = quote.textContent;
+    quote.textContent = "";
+  [...text].forEach((letter, index) => {
+    const span = document.createElement("span");
+    span.innerHTML = letter === " "
+        ? "&nbsp;"
+        : letter;
+    span.style.animationDelay = `${index * 0.10}s`;
+    quote.appendChild(span);
+
+});
+    });
+</script>
+
+<script>
+const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add("show");
+}
+});
+});
+reveals.forEach(item => observer.observe(item));
 </script>
 
 
