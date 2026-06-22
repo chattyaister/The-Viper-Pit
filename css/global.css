@@ -362,12 +362,12 @@ li::before {
 }
 
 a {
-  color: #a11500;
+  color: #A45BF5;
   text-decoration: none;
   transition: 0.3s ease;
 }
 
 a:hover {
-  color: #ff4d4d;
+  color: #A45BF5;
   text-shadow: 0 0 8px rgba(161, 21, 0, 0.8);
 }
