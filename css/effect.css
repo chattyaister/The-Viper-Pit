@@ -60,6 +60,7 @@ body {
 
 .popup-content {
     transition: transform 1.5s ease, opacity 1.5s ease;
+      z-index: 1;
 }
 
 #popup.hidden .popup-content {
