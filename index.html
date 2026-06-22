@@ -520,17 +520,6 @@ this.remove();
 });
 </script>
     
-<script>
-const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
-const observer = new IntersectionObserver((entries) => {
-entries.forEach(entry => {
-if (entry.isIntersecting) {
-entry.target.classList.add("show");
-}
-});
-});
-reveals.forEach(item => observer.observe(item));
-</script>
 
   <script>
 function showPage(pageId, groupClass) {
@@ -572,7 +561,18 @@ document.querySelectorAll(".type-reveal").forEach(quote => {
 });
     });
 </script>
-    
+
+<script>
+const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add("show");
+}
+});
+});
+reveals.forEach(item => observer.observe(item));
+</script>
     
 </body>
 </html>
