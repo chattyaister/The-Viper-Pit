@@ -288,16 +288,6 @@
   <p class="gray">Mistral remembers the wisteria.</p>
 </footer>
 
-<script>
-    const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
-        });
-    });
 
   <script>
 document.querySelectorAll(".type-reveal").forEach(quote => {
@@ -408,7 +398,18 @@ function toggleDetails(button) {
     ? "<strong>⇣ Open Weapon Dossier ⇣</strong>"
     : "<strong>⇣ Open Weapon Dossier ⇣</strong>";
 }
+  
 </script>
+<script>
+    const reveals = document.querySelectorAll(".dossier-card, .reveal-quote");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
 
 
   
