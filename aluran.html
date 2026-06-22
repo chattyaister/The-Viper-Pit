@@ -374,6 +374,18 @@ function showPage(pageId, groupClass) {
 }
 </script>
 
+<script>
+function toggleDetails(button) {
+  const details = button.closest(".mini-transparent-card").nextElementSibling;
+
+  details.classList.toggle("open");
+
+  button.innerHTML = details.classList.contains("open")
+    ? "<strong>⇣ Open Weapon Dossier ⇣</strong>"
+    : "<strong>⇣ Open Weapon Dossier ⇣</strong>";
+}
+</script>
+  
     <script>
 document.querySelectorAll(".type-reveal").forEach(quote => {
     const text = quote.textContent;
