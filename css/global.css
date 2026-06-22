@@ -360,3 +360,14 @@ li::before {
     content: "► ";
      color: #E6E6E6;
 }
+
+a {
+  color: #a11500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #ff4d4d;
+  text-shadow: 0 0 8px rgba(161, 21, 0, 0.8);
+}
