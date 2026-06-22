@@ -293,7 +293,7 @@ body::before {
     inset: 0;
     pointer-events: none;
     overflow: hidden;
-    z-index: 0;
+    z-index: 10000;
 }
 
 .smoke {
@@ -356,7 +356,7 @@ body::before {
   inset: 0;
   pointer-events: none;
   overflow: hidden;
-  z-index: 2;
+  z-index: 10001;
 }
 
 .ember {
