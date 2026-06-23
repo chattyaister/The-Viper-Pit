@@ -266,7 +266,7 @@ transform: translateY(0);
 }
 
 .dossier-card:hover {
-transform: translateY(-5px);
+  translate: 0 -6px;
 }
 
 .dossier-card:hover {
