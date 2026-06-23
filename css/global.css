@@ -252,7 +252,7 @@ transform: translateY(0);
 }
 
 .dossier-card:hover {
-  transform: translateY(34px);
+  transform: translateY(-6px);
   box-shadow: 0 0 30px #7D1400;
 }
 
