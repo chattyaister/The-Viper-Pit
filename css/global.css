@@ -8,7 +8,7 @@ text-align: center;
     justify-content: center;
     width: 400px;
     margin: 20px auto;
-    color: #A11500;
+    color: #7D1400;
 }
 
 .divider {
@@ -41,7 +41,7 @@ text-align: center;
 
 .header-divider span {
     margin: 0 15px;
-    color: #A11500;
+    color: #7D1400;
     text-shadow:
         0 0 8px rgba(161,21,0,0.6);
 }
@@ -115,7 +115,7 @@ color: #E6E6E6;
 }
 
 .red {
-color: #A11500;
+color: #7D1400;
 }
 
 .gray {
@@ -144,8 +144,8 @@ text-align: center;
 .landing-card {
 background: rgba(21, 21, 21, 0.7);
 border: 1px solid #333333;
-border-left: 6px solid #A11500;
-border-right: 6px solid #A11500;
+border-left: 6px solid #7D1400;
+border-right: 6px solid #7D1400;
 border-radius: 10px;
 padding: 25px;
 box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
@@ -156,7 +156,7 @@ background: rgba(15, 15, 15, 0.50);
 display: inline-block;
 margin-top: 5px;
 padding: 15px 30px;
-color: #A11500;
+color: #7D1400;
 text-decoration: none;
 transition: 0.4s ease;
 border-radius: 6px;
@@ -166,7 +166,7 @@ border-radius: 6px;
 background: rgba(15, 15, 15, 0.50);
 transform: scale(1.10);
 border-radius: 6px;
-color: #A11500;
+color: #7D1400;
 
 }
 
@@ -174,7 +174,7 @@ color: #A11500;
 display: inline-block;
 margin-top: 5px;
 padding: 10px 15px;
-background: #A11500;
+background: #7D1400;
 color: white;
 text-decoration: none;
 border-radius: 6px;
@@ -270,7 +270,7 @@ transform: translateY(-5px);
 }
 
 .dossier-card:hover {
-box-shadow: 0 0 30px #A11500;
+box-shadow: 0 0 30px #7D1400;
 }
 
 .archive {
@@ -326,7 +326,7 @@ box-shadow: 0 0 30px #A11500;
     color: #E6E6E6;
     text-decoration: none;
     background: rgba(0,0,0,0.6);
-    border-left: 4px solid #A11500;
+    border-left: 4px solid #7D1400;
     border-right: 1px solid #333;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
