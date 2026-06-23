@@ -218,11 +218,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.dossier-card.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .redacted-card {
     position: relative;
     overflow: hidden;
