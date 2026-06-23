@@ -246,6 +246,15 @@ backdrop-filter: blur(0px);
   box-shadow 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+.dossier-card.show {
+opacity: 1;
+transform: translateY(0);
+}
+
+.dossier-card:hover {
+  transform: translateY(34px);
+  box-shadow: 0 0 30px #7D1400;
+}
 
 .extreme {
 border-left-color: #7D1400;
@@ -260,16 +269,6 @@ border-right-color: #41007D;
 .unknown {
 border-left-color: #007D6A;
 border-right-color: #007D6A;
-}
-
-.dossier-card.show {
-opacity: 1;
-transform: translateY(0);
-}
-
-.dossier-card:hover {
-  transform: translateY(34px);
-  box-shadow: 0 0 30px #7D1400;
 }
 
 .archive {
