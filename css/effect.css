@@ -6,7 +6,7 @@
     width: 0;
     color: white;
     animation:
-    typing 3s steps(17, end) forwards,
+    typing 3s steps(18, end) forwards,
     blink 0.75s step-end infinite;
     text-align: center;
     margin: 0 auto;
