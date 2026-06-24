@@ -189,7 +189,7 @@ body {
     padding: 12px;
     backdrop-filter: blur(8px);
     background: rgba(8,8,8,0.85);
-    border-bottom: 1px solid #A11500;
+    border-bottom: 2px solid #A11500;
 }
 
 .top-nav a {
