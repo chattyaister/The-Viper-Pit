@@ -386,7 +386,7 @@ a:hover {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 300px;
+    width: 500px;
     opacity: 0.3;
     pointer-events: none;
     z-index: -1;
