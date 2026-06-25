@@ -385,10 +385,10 @@ a:hover {
 .card-emblem {
     position: absolute;
     top: 20px;
-    right: -10px;
+    right: -7px;
     width: 450px;
     opacity: 0.3;
     pointer-events: none;
     z-index: -1;
-    filter: drop-shadow (0 0 8px rgba (180, 20, 20, 0.5));
+    filter: drop-shadow (0 0 8px rgba (180, 20, 20, 1.0));
 }
