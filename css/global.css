@@ -387,8 +387,9 @@ a:hover {
     top: 20px;
     right: 20px;
     width: 175px;
-    opacity: 0.5;
+    opacity: 0.4;
     pointer-events: none;
     z-index: -1;
+    filter: grayscale(100%);
     filter: drop-shadow (0 0 8px rgba (180, 20, 20, 0.5));
 }
