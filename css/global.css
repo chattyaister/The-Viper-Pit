@@ -282,6 +282,17 @@ border-right-color: #007D6A;
     box-sizing: border-box;
 }
 
+.navbar-archive {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .column {
     max-width: 1000px;
     margin: 40px auto;
