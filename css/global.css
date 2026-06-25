@@ -385,7 +385,7 @@ a:hover {
 .card-emblem {
     position: absolute;
     top: 20px;
-    right: -7px;
+    right: -6px;
     width: 450px;
     opacity: 0.3;
     pointer-events: none;
