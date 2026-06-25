@@ -244,6 +244,7 @@ backdrop-filter: blur(0px);
   opacity 1s ease,
   transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
   box-shadow 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  position: relative;
 }
 
 .dossier-card.show {
@@ -379,4 +380,13 @@ a {
 a:hover {
   color: #C28CFF;
   text-shadow: 0 0 8px rgba(161, 21, 0, 0.8);
+}
+
+.card-emblem {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    opacity: 0.3;
+    pointer-events: none;
 }
