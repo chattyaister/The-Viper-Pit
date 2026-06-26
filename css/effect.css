@@ -215,7 +215,7 @@ body {
 }
 
 .nav-links {
-    margin-left: auto;
+   gap: 30px;
 }
 
 html {
