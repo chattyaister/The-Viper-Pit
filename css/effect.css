@@ -214,6 +214,10 @@ body {
     width: 100%;
 }
 
+.nav-links {
+    margin-left: auto;
+}
+
 html {
     scroll-behavior: smooth;
 }
