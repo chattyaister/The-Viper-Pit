@@ -196,7 +196,6 @@ padding: 0px;
 margin: 0px auto;
 max-width: 1200px;
 box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
-backdrop-filter: blur(0px);
 }
 
 .left-transparent-card {
@@ -208,7 +207,6 @@ padding: 0px;
 margin: 0px auto;
 max-width: 1200px;
 box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
-backdrop-filter: blur(0px);
 }
 
 .right-transparent-card {
@@ -221,7 +219,6 @@ padding: 0px;
 margin: 0px auto;
 max-width: 1200px;
 box-shadow: 0 0 25px rgba(124, 58, 237, 0.00);
-backdrop-filter: blur(0px);
 }
 
 .mini-transparent-card {
