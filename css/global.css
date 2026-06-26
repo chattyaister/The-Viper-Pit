@@ -300,7 +300,7 @@ border-right-color: #007D6A;
     gap: 0px;
     width: 100%;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: right;
 }
 
 .column {
