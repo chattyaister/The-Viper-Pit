@@ -215,7 +215,9 @@ body {
 }
 
 .nav-links {
-   gap: 30px;
+    display: flex;
+    gap: 30px;
+}
 }
 
 html {
