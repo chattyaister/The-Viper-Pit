@@ -377,7 +377,7 @@ ul2 {
 }
 
 li::before {
-    content: "► ";
+    content: "⋄ ";
      color: #E6E6E6;
 }
 
